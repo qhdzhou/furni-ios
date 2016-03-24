@@ -39,6 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegat
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Developers: Welcome! Get started with Fabric.app.
         let welcome = "Welcome to Furni! Please onboard with the Fabric Mac app. Check the instructions in the README file."
+        // TODO REFINE this
         precondition(NSBundle.mainBundle().objectForInfoDictionaryKey("Fabric") != nil, welcome)
 
         // Register Fabric Kits.
